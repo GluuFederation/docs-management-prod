@@ -1,0 +1,1 @@
+## Gluu documentation style guide
