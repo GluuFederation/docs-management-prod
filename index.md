@@ -1,7 +1,7 @@
 # Gluu Documentation Style Guide  
 
 ## Introduction
-This style guide is intended to make sure that all Gluu documentation is organized, consistent, and legible. It focuses on the editable .md files for optimum formatting on the website. This guide will use the style it is describing, so look at how it is constructed for examples.
+This style guide is intended to make sure that all Gluu documentation is organized, consistent, and legible. It focuses on the editable .md files for optimal formatting on the [Gluu docs website](https://gluu.org/docs). This guide will use the style it is describing, so look at how it is constructed for examples.
 
 ## General Text
  - Allow long lines to wrap, rather than manually breaking them. For example, the Introduction paragraph is a single line
