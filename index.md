@@ -13,15 +13,33 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - Avoid passive voice as much as possible. It's clearer to say that a subject does something than to say a result was done
  
 ## Lists
- - To make a numbered list, start the line with `1.`
- - To make a bulleted list, start the line with `-`
  - Only use a numbered list if the order of the list matters
  - A line of a list should not end with a period. If it's multiple sentences, like this one, drop the last period
  - Start each item in the list with a capital letter
-
+ - To make a bulleted list, start the line with `-`
+ - To make a numbered list, start the line with `1.` For example:
+ > ```
+ > 1. This is the first item
+ > 1. This is the second item
+ > 1. This is the third item
+ > ```
+ It will look like this:
+ 1. This is the first item
+ 1. This is the first item
+ 1. This is the third item
+ 
 ## Headings
  - Headings should be in title format. All important words should be capitalized
  - The main title of the page should start with a single `#`, then each level of subheading should add one. For example, your first subheading should start with `##`, a subheading of that should use `###`, and so on
+ 
+## Demonstration
+ - When possible, you should provide an example in the form of code output or a screenshot
+ - To demonstrate navigating through a menu, use the following style:
+ > ```
+ > Navigate to `Configuration` > `Authentication` and click the `Passport` tab
+ > ```  
+ It'll look like this:  
+ Navigate to `Configuration` > `Authentication` and click the `Passport` tab
  
 ## Linking
 
