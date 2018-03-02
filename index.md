@@ -65,13 +65,5 @@ Notes and warnings are formatted as follows:
 !!! Warning  
     This is a warning. It works just like a note.
 ```
-
-It will look like this:
-
-!!! Note  
-    This is a note. Notice the four spaces before the first word on this line.
     
-!!! Warning  
-    This is a warning. It works just like a note.
-    
-They will not look correct on GitHub, but will convert on the Gluu website.
+They will not look correct on GitHub, but will convert on the Gluu website. For instance, see the [note here](https://gluu.org/docs/ce/3.1.2/#directory-service).
