@@ -57,13 +57,14 @@ It looks like this:
 ## Notes and Warnings
 Notes and warnings are formatted as follows:
 
->```
->!!! Note  
->    This is a note. Notice the four spaces before the first word on this line.
->
->!!! Warning  
->    This is a warning. It works just like a note.
->```
+```
+!!! Note  
+    This is a note. Notice the four spaces before the first word on this line.
+```
+```
+!!! Warning  
+    This is a warning. It works just like a note.
+```
 
 It will look like this:
 
