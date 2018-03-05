@@ -84,5 +84,18 @@ Notes and warnings are formatted as follows:
 !!! Warning  
     This is a warning. It works just like a note.
 ```
-    
-**Notes will not look correct on GitHub, but will have the proper formatting once rendered on the Gluu docs site.** For instance, see the [note here on Gluu docs](https://gluu.org/docs/ce/3.1.2/#directory-service), and the source [here on Github](https://github.com/GluuFederation/docs-ce-prod/blob/3.1.2/3.1.2/source/index.md#directory-service). 
+
+Notes / warning will look like this on GitHub:
+
+!!! Note
+    This is a note. 
+
+!!! Warning
+    This is a warning. 
+
+Once pulled by Mkdocs to the Gluu docs site, the formatting will look like this:
+
+https://user-images.githubusercontent.com/5271048/36987207-6d2a5ebc-2061-11e8-8ec7-0a364582e494.png
+
+https://user-images.githubusercontent.com/5271048/36987254-8a705468-2061-11e8-9478-cbb5dd9547ac.png
+
