@@ -95,7 +95,6 @@ On Github, notes / warning will look like this:
 
 On the Gluu docs site, notes / warnings will look like this:
 
-![notes](https://user-images.githubusercontent.com/5271048/36987207-6d2a5ebc-2061-11e8-8ec7-0a364582e494.png)
+![notes and warnings](https://user-images.githubusercontent.com/5271048/36987716-a9313876-2062-11e8-98c8-ab65a8bb3299.png)
 
-![warnings](https://user-images.githubusercontent.com/5271048/36987254-8a705468-2061-11e8-9478-cbb5dd9547ac.png)
 
