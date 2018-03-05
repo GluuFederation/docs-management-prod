@@ -95,7 +95,7 @@ Notes / warning will look like this on GitHub:
 
 Once pulled by Mkdocs to the Gluu docs site, the formatting will look like this:
 
-https://user-images.githubusercontent.com/5271048/36987207-6d2a5ebc-2061-11e8-8ec7-0a364582e494.png
+![notes](https://user-images.githubusercontent.com/5271048/36987207-6d2a5ebc-2061-11e8-8ec7-0a364582e494.png)
 
-https://user-images.githubusercontent.com/5271048/36987254-8a705468-2061-11e8-9478-cbb5dd9547ac.png
+![warnings](https://user-images.githubusercontent.com/5271048/36987254-8a705468-2061-11e8-9478-cbb5dd9547ac.png)
 
