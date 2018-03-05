@@ -11,6 +11,7 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - To **bold** text, put a double `*` on each end, like this: `**word**`
  - Leave a blank line between paragraphs. Count a header as a paragraph for this purpose
  - Avoid passive voice as much as possible. It's clearer to say that a subject does something than to say a result was done
+ - Avoid using `you` in statements as much as possible. For example, instead of saying `You can navigate to...` simply say `Navigate to...`. 
  
 ## Lists
  - Only use a numbered list if the order of the list matters
