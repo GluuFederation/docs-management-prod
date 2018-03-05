@@ -85,7 +85,7 @@ Notes and warnings are formatted as follows:
     This is a warning. It works just like a note.
 ```
 
-Notes / warning will look like this on GitHub:
+On Github, notes / warning will look like this:
 
 !!! Note
     This is a note. 
@@ -93,7 +93,7 @@ Notes / warning will look like this on GitHub:
 !!! Warning
     This is a warning. 
 
-Once pulled by Mkdocs to the Gluu docs site, the formatting will look like this:
+On the Gluu docs site, notes / warnings will look like this:
 
 ![notes](https://user-images.githubusercontent.com/5271048/36987207-6d2a5ebc-2061-11e8-8ec7-0a364582e494.png)
 
