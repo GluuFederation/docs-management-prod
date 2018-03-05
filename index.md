@@ -31,10 +31,10 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  
 ## Headings
  - Headings should be in title format. All important words should be capitalized
- - The main title of the page should start with a single `#`, then each level of subheading should add one. For example, your first subheading should start with `##`, a subheading of that should use `###`, and so on
+ - The main title of the page should start with a single `#`, then each level of subheading should add one. For example, the first subheading should start with `##`, a subheading of that should use `###`, and so on
  
 ## Demonstration
- - When possible, you should provide an example in the form of code output or a screenshot
+ - When possible, provide an example in the form of code output or a screenshot
  - To demonstrate navigating through a menu, use the following style:
  > ```
  > Navigate to `Configuration` > `Authentication` and click the `Passport` tab
