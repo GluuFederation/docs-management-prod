@@ -84,4 +84,4 @@ Notes and warnings are formatted as follows:
     This is a warning. It works just like a note.
 ```
     
-They will not look correct on GitHub, but will convert on the Gluu website. For instance, see the [note here](https://gluu.org/docs/ce/3.1.2/#directory-service).
+Notes will not look correct on GitHub, but will have the proper formatting once rendered on the Gluu docs site. For instance, see the [note here on Gluu docs](https://gluu.org/docs/ce/3.1.2/#directory-service), and the source [here on Github](https://github.com/GluuFederation/docs-ce-prod/blob/3.1.2/3.1.2/source/index.md#directory-service). 
