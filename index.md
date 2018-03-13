@@ -11,7 +11,12 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - To **bold** text, put a double `*` on each end, like this: `**word**`
  - Leave a blank line between paragraphs. Count a header as a paragraph for this purpose
  - Avoid passive voice as much as possible. It's clearer to say that a subject does something than to say a result was done
- - Avoid using `you` in statements as much as possible. For example, instead of saying `You can navigate to...` simply say `Navigate to...`. 
+ - Avoid using `you` in statements as much as possible. For example, instead of saying `You can navigate to...` simply say `Navigate to...` 
+ 
+## Page Setup
+ - Start your page with a title on the first line
+ - Follow with a concise overview of the document / product's purpose
+ - Organize the information in the document from least technical to most technical if possible. Start conceptual, then get detailed
  
 ## Lists
  - Only use a numbered list if the order of the list matters
@@ -60,6 +65,7 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - Try to make tables visually readable by spacing to make distinct columns
  - The header for each column must be separated by at least three dashes
  - Use outer pipes for consistency
+ - If an entry is too long to fit in the neat boxes, that's fine, just try to keep it legible
  - An example table follows:
 
 > ```
