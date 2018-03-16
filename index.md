@@ -22,6 +22,7 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - Only use a numbered list if the order of the list matters
  - A line of a list should not end with a period. If it's multiple sentences, like this one, drop the last period
  - Start each item in the list with a capital letter
+ - End each item in the list with at least three spaces. This makes sure the line breaks properly
  - To make a bulleted list, start each line with `-`
  - To make a numbered list, start each line with `1.` For example:
  > ```
@@ -60,6 +61,10 @@ This style guide is intended to make sure that all Gluu documentation is organiz
 ### Linking to a Page in a Different Repo
  - You'll need to back out to the closest common path using `/../` to go back a directory
  - For instance, use `[this link](../../../docs-ce-prod/blob/3.1.2/3.1.2/source/installation-guide/install.md)` to get to [this link](../../../docs-ce-prod/blob/3.1.2/3.1.2/source/installation-guide/install.md)
+ 
+### Pictures
+ - Displaying a live picture uses the same relative linking syntax as a normal link, except that it leads with an exclamation point
+ - For instance, it will look like `![this link](../img/example.png)`
  
  ## Tables
  - Try to make tables visually readable by spacing to make distinct columns
