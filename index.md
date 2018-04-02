@@ -34,7 +34,25 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  1. This is the first item
  1. This is the first item
  1. This is the third item
+ - To include additional lines in a list, start the sub-lines with four spaces. For example
  
+ ```
+1. This is the first item in a list
+    There are four spaces to start this line
+    Another four spaces here
+    This keeps all text inside the list, before starting...
+
+1. The second list item
+```
+It will look like this:
+
+1. This is the first item in a list
+    There are four spaces to start this line
+    Another four spaces here
+    This keeps all text inside the list, before starting...
+
+1. The second list item
+
 ## Headings
  - Headings should be in title format. All important words should be capitalized
  - The main title of the page should start with a single `#`, then each level of subheading should add one. For example, the first subheading should start with `##`, a subheading of that should use `###`, and so on
