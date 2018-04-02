@@ -37,12 +37,12 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - To include additional lines in a list, start the sub-lines with four spaces. For example
  
  ```
-1. This is the first item in a list
-    There are four spaces to start this line
-    Another four spaces here
-    This keeps all text inside the list, before starting...
+1. This is the first item in a list   
+    There are four spaces to start this line   
+    Another four spaces here   
+    This keeps all text inside the list, before starting...   
 
-1. The second list item
+1. The second list item   
 ```
 It will look like this:
 
