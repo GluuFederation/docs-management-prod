@@ -56,7 +56,7 @@ It will look like this:
  - To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in the Note. For example:
  ```
      !!! Note
-         This is a note
+         This is a note that will nest inside a list.
 ```
 
 ## Headings
@@ -135,8 +135,8 @@ On the Gluu docs site, notes / warnings will look like this:
 
 ![notes and warnings](https://user-images.githubusercontent.com/5271048/36987716-a9313876-2062-11e8-98c8-ab65a8bb3299.png)
 
-To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in the Note. For example:
+To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in !!! Note. For example:
  ```
      !!! Note
-         This is a note
+         This is a note that will nest inside a list.
 ```
