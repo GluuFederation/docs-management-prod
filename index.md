@@ -52,6 +52,12 @@ It will look like this:
     This keeps all text inside the list, before starting...    
 
 1. The second list item   
+ 
+ - To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in the Note. For example:
+ ```
+     !!! Note
+         This is a note
+```
 
 ## Headings
  - Headings should be in title format. All important words should be capitalized
