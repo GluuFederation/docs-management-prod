@@ -51,13 +51,28 @@ It will look like this:
     Another four spaces here   
     This keeps all text inside the list, before starting...    
 
-1. The second list item   
+1. The following list item   
  
  - To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in the Note. For example:
  ```
      !!! Note
          This is a note that will nest inside a list.
 ```
+ - Nesting a block of code in a numbered list is more challenging, as the list and code block syntaxes clash. It is generally easier to do each line as its own code segment, indented four spaces, with two trailing spaces at the end, like this:
+
+```
+1. This is the first item  
+    `This is code`  
+    `This is also code.`  
+1. This is the second item  
+```
+It will look like this:
+
+1. This is the first item  
+    `This is code`  
+    `This is also code.`  
+1. This is the second item  
+
 
 ## Headings
  - Headings should be in title format. All important words should be capitalized
