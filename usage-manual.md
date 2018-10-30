@@ -32,12 +32,12 @@ The following is a guide describing how to use common words, names, and phrases 
 
 ## L
 
-  ### Login, Log in, Log into
+  ### Login, Log in, Log in to
 
   Use `login` as a noun or adjective, use `log in` as a verb.
 
   Examples: Present your login credentials  
-            Log into the server  
+            Log in to the server  
             You are ready to log in  
 
 ## M
