@@ -32,7 +32,7 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  > ```
  It will look like this:
  1. This is the first item
- 1. This is the first item
+ 1. This is the second item
  1. This is the third item
  - To include additional lines in a list item, start the sub-line with four spaces. For example:
  
