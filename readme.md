@@ -163,7 +163,7 @@ To nest a note inside a list, add four spaces in front of the !!! Note, move to 
 
 The Gluu Server supports many different Operating Systems (e.g. RHEL, Debian, Ubuntu, etc.). Service commands can vary. Rather than "hard coding" service commands into documentation, please instead reference the dedicated documentation page for [Service Commands](https://gluu.org/docs/ce/4.0/operation/services/). 
 
-For an example, see [this doc](https://gluu.org/docs/ce/4.0/admin-guide/attribute/#opendj), where it states: 
+For example, see [this doc](https://gluu.org/docs/ce/4.0/admin-guide/attribute/#opendj), where it states: 
 
 > Restart the opendj service.
 
