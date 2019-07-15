@@ -23,17 +23,20 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - A line of a list should not end with a period. If it's multiple sentences, like this one, drop the last period
  - Start each item in the list with a capital letter
  - End each item in the list with at least three spaces. This makes sure the line breaks properly
- - To make a bulleted list, start each line with `-`
- - To make a numbered list, start each line with `1.` For example:
+ - To make a *bulleted* list, start each line with `-`
+ - To make a *numbered* list, start each line with `1.` For example:
+ 
  > ```
  > 1. This is the first item
  > 1. This is the second item
  > 1. This is the third item
  > ```
+ 
  It will look like this:
  1. This is the first item
  1. This is the second item
  1. This is the third item
+ 
  - To include additional lines in a list item, start the sub-line with four spaces. For example:
  
  ```
