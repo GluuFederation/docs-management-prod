@@ -168,6 +168,8 @@ For example, see [this section](https://gluu.org/docs/ce/4.0/admin-guide/attribu
 In documenting a process that involves a service restart, the Service Command documentation is linked:  
 
 ```  
+## Add the attribute to LDAP
+
  - Add custom attribute 
  - [Restart](https://gluu.org/docs/ce/4.0/operation/services/) the ldap service.
 ```
