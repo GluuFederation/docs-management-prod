@@ -163,12 +163,15 @@ To nest a note inside a list, add four spaces in front of the !!! Note, move to 
 
 The Gluu Server supports many different Operating Systems (e.g. RHEL, Debian, Ubuntu, etc.). Service commands can vary. Rather than "hard coding" service commands into documentation, please instead reference the dedicated documentation page for [Service Commands](https://gluu.org/docs/ce/4.0/operation/services/). 
 
-For example, documentation needing to reference a service command can follow this style:  
+For example, see [this section](https://gluu.org/docs/ce/4.0/admin-guide/attribute/#opendj) of the docs for a production example. 
 
+In documenting a process that involves a service restart, the Service Command documentation is linked:  
+
+```  
  - Add custom attribute 
  - [Restart](https://gluu.org/docs/ce/4.0/operation/services/) the ldap service.
+```
 
 The word `Restart` is simply linked to the dedicated doc for Service Commands. 
 
-See [this section](https://gluu.org/docs/ce/4.0/admin-guide/attribute/#opendj) of the docs for a production example. 
 
