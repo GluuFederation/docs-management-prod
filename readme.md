@@ -26,27 +26,28 @@ This style guide is intended to make sure that all Gluu documentation is organiz
  - To make a *bulleted* list, start each line with `-`
  - To make a *numbered* list, start each line with `1.` For example:
  
- > ```
- > 1. This is the first item
- > 1. This is the second item
- > 1. This is the third item
- > ```
+    ```
+    1. This is the first item
+    1. This is the second item
+    1. This is the third item
+    ```
  
- It will look like this:
- 1. This is the first item
- 1. This is the second item
- 1. This is the third item
+It will look like this:
+1. This is the first item
+1. This is the second item
+1. This is the third item
  
  - To include additional lines in a list item, start the sub-line with four spaces. For example:
  
- ```
-1. This is the first item in a list   
-    There are four spaces to start this line   
-    Another four spaces here   
-    This keeps all text inside the numbered list item, before starting...   
+    ```
+    1. This is the first item in a list   
+       There are four spaces to start this line   
+       Another four spaces here   
+       This keeps all text inside the numbered list item, before starting...   
 
-1. The following list item   
-```
+    1. The following list item   
+    ```
+
 It will look like this:
 
 1. This is the first item in a list   
@@ -55,54 +56,71 @@ It will look like this:
     This keeps all text inside the list, before starting...    
 
 1. The following list item   
- 
- - To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in the Note. For example:
- ```
-     !!! Note
-         This is a note that will nest inside a list.
-```
- - Nesting a block of code in a numbered list is more challenging, as the list and code block syntaxes clash. It is generally easier to do each line as its own code segment, indented four spaces, with two trailing spaces at the end, like this:
+
+### Other formatting considerations
+
+ - [Admonitions](#admonitions) cannot be nested inside a list. They must be aligned all the way left.
+    
+ - Nesting a [fenced block of code](#code-formatting) in a numbered list is more challenging, as the list and code block syntaxes clash. To nest a code block into a list, insert four spaces to the left of all lines of the formatting. For example:
 
 ```
 1. This is the first item  
-    `This is code`  
-    `This is also code.`  
+    ```
+    This is code  
+    This is also code.
+    ```
 1. This is the second item  
 ```
+
 It will look like this:
 
 1. This is the first item  
-    `This is code`  
-    `This is also code.`  
+    ```
+    This is code  
+    This is also code.
+    ```
 1. This is the second item  
 
 
 ## Headings
  - Headings should be in title format. All important words should be capitalized
  - The main title of the page should start with a single `#`, then each level of subheading should add one. For example, the first subheading should start with `##`, a subheading of that should use `###`, and so on
- 
+
+## Code Formatting
+  - To format text as code within a line of normal text, surround the code with a single backtick (\`).
+  - If the code is to be on its own line, it should be a fenced code block. To make a fenced code block, make a line before and after the code with three backticks:
+  
+    ```
+        ```
+        This is code
+        ```
+    ```
+    
+  - We use the [SuperFences](https://facelessuser.github.io/pymdown-extensions/extensions/superfences/) plugin to enhance this functionality.
+  
+  
 ## Examples & Navigation
  - When possible, provide an example in the form of code output or a screenshot
  - To instruct a user to click a button, or navigate to a certain page or through a menu, use the following style:
 
- > ```
- > Navigate to `Configuration` > `Authentication` and click the `Passport` tab
- > ```  
+     ```
+     Navigate to `Configuration` > `Authentication` and click the `Passport` tab
+     ```  
  
- It will look like this:  
+It will look like this:  
  
- Navigate to `Configuration` > `Authentication` and click the `Passport` tab
+Navigate to `Configuration` > `Authentication` and click the `Passport` tab
  
 ## Linking
 
-### Linking to a Page Within the Same Repo
+### Linking to a page within the same repo
  - Use this format: `[text for the link](./where/the/link/goes.md)`
  - You must link to the `.md` file on GitHub for it to work properly
  - As an example, to make [this link](./example.md) to an example page, you'd type it as `[this link](./example.md)`
  
-### Linking to a Page in a Different Repo
- - You'll need to back out to the closest common path using `/../` to go back a directory
- - For instance, use `[this link](../../../docs-ce-prod/blob/3.1.2/3.1.2/source/installation-guide/install.md)` to get to [this link](../../../docs-ce-prod/blob/3.1.2/3.1.2/source/installation-guide/install.md)
+### Linking to an external page in a Different Repo
+ - Link to the rendered documentation page (on https://gluu.org/docs/*)
+ - For instance, use `[this link](https://www.gluu.org/docs/ce/installation-guide/install/)` to get to [this link](https://www.gluu.org/docs/ce/installation-guide/install/)
  
 ### Pictures
  - Displaying a live picture uses the same relative linking syntax as a normal link, except that it leads with an exclamation point
@@ -115,12 +133,12 @@ It will look like this:
  - If an entry is too long to fit in the neat boxes, that's fine, just try to keep it legible
  - An example table follows:
 
-> ```
-> |This    |Is     |A     |Table    |
-> |--------|-------|------|---------|
-> |1       |2      |3     |4        |
-> |Word    |Code   |Text  |Table    |
->```
+ ```
+ |This    |Is     |A     |Table    |
+ |--------|-------|------|---------|
+ |1       |2      |3     |4        |
+ |Word    |Code   |Text  |Table    |
+```
 
 It looks like this:
 
@@ -129,13 +147,14 @@ It looks like this:
 |1       |2      |3     |4        |
 |Word    |Code   |Text  |Table    |
 
-## Notes and Warnings
-Notes and warnings are formatted as follows:
+## Admonitions
+We use the [Admonition](https://squidfunk.github.io/mkdocs-material/extensions/admonition/) plugin for notes, warnings, and other attention-drawing messages. They are formatted as follows:
 
 ```
 !!! Note  
     This is a note. Notice the four spaces before the first word on this line.
 ```
+
 ```
 !!! Warning  
     This is a warning. It works just like a note.
@@ -143,21 +162,15 @@ Notes and warnings are formatted as follows:
 
 On Github, notes / warning will look like this:
 
-!!! Note
+!!! Note  
     This is a note. 
 
-!!! Warning
+!!! Warning  
     This is a warning. 
 
 On the Gluu docs site, notes / warnings will look like this:
 
 ![notes and warnings](https://user-images.githubusercontent.com/5271048/36987716-a9313876-2062-11e8-98c8-ab65a8bb3299.png)
-
-To nest a note inside a list, add four spaces in front of the !!! Note, move to the next line and align the note content with the `N` in !!! Note. For example:
- ```
-     !!! Note
-         This is a note that will nest inside a list.
-```
 
 ## Service Commands 
 
