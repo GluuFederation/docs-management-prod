@@ -59,7 +59,7 @@ It will look like this:
 
 ### Other formatting considerations
 
- - [Admonitions](#admonitions) cannot be nested inside a list. They must be aligned all the way left.
+ - [Admonitions](#admonitions) cannot be nested inside a list. They must be aligned all the way left. Inserting them within a list will break the list sequence (starting back over from 1).
     
  - Nesting a [fenced block of code](#code-formatting) in a numbered list is more challenging, as the list and code block syntaxes clash. To nest a code block into a list, insert four spaces to the left of all lines of the formatting. For example:
 
