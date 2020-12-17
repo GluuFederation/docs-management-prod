@@ -3,7 +3,7 @@
 ## Introduction
 This guide is intended to make sure that all Gluu documentation is organized, consistent, and legible. The guide covers the general architecture of the docs and the best practices for the editable .md files for optimal formatting on the [Gluu docs website](https://gluu.org/docs). This guide will use the style it is describing, so look at how it is constructed for examples.
 
-## Docs Architecture
+## Configuration
 
 ### Overview
 
